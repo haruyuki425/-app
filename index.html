@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クリック連打ゲーム</title>
+    <!-- CSSファイルを読み込みます -->
+    <link rel="stylesheet" href="style.css">
+    <!-- PWAのマニフェストファイルをリンクします -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Appleデバイス用のアイコン設定 (任意ですが推奨) -->
+    <link rel="apple-touch-icon" href="https://placehold.co/192x192/007BFF/FFFFFF?text=PWA">
+</head>
+<body>
+    <div class="container">
+        <h1>クリック連打ゲーム</h1>
+        <div class="game-info">
+            <p>残り時間: <span id="timer">10</span>秒</p>
+            <p>クリック数: <span id="score">0</span>回</p>
+        </div>
+        <button id="clickButton">ここをクリック！</button>
+        <button id="startButton">ゲームスタート</button>
+        <div id="result" class="hidden"></div>
+    </div>
+
+    <!-- アプリのJavaScriptファイルを読み込みます -->
+    <script src="app.js"></script>
+</body>
+</html>
 
