@@ -8,12 +8,12 @@
     "theme_color": "#007BFF",
     "icons": [
         {
-            "src": "https://placehold.co/192x192/007BFF/FFFFFF?text=PWA",
+            "src": "https://placehold.co/192x192/007BFF/FFFFFF?text=TAP",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://placehold.co/512x512/007BFF/FFFFFF?text=PWA",
+            "src": "https://placehold.co/512x512/007BFF/FFFFFF?text=TAP",
             "sizes": "512x512",
             "type": "image/png"
         }
