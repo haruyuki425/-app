@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.game-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#timer, #score {
+    font-weight: bold;
+    color: #FF5722;
+}
+
+#clickButton, #startButton {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box; /* paddingを含めて幅を計算 */
+}
+
+#clickButton:hover, #startButton:hover {
+    background-color: #0056b3;
+}
+
+#clickButton:active, #startButton:active {
+    background-color: #004085;
+}
+
+#clickButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#startButton {
+    background-color: #28a745;
+    margin-bottom: 20px;
+}
+
+#startButton:hover {
+    background-color: #218838;
+}
+
+#result {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #e8f5e9;
+}
+
+.hidden {
+    display: none;
+}
